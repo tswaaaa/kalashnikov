@@ -1,15 +1,17 @@
 import { useRouter } from "next/router";
-import Footer from '../components/footer'
-import Header from '../components/header'
+import Footer from '../components/footer';
+import Header from '../components/header';
+// import HoverSlider from '@/pages/hoverslider';
 
 export default function Home() {
   const router = useRouter();
-
+ 
   return (
-    <div className='bg-dark-gray dark:bg-dark-bg flex items-center flex-col overflow-x-hidden'>
-        <Header />
-        
-        <Footer />
+    <div>
+      <Header />
+      {/* <HoverSlider/> */}
+      
+      <Footer />
     </div>
-  )
-};
+  );
+}

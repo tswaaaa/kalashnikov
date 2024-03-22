@@ -16,7 +16,7 @@ const Header = () => {
     };
 
     return (
-        <div className="bg-black w-full h-16 flex fixed text-white font-bold text-sm items-center flex-row justify-between">
+        <div className="bg-black bg-opacity-80 w-full h-16 flex fixed text-white font-bold text-sm items-center flex-row justify-between border-b-2 border-white-gray">
             <div className="flex-initial ml-24 w-56">
                 <button className=" items-center object-fill" onClick={() => router.push('/home')}>
                     <img className="object-fill" src="/images/big-logo.png" alt="Big Logo" />
